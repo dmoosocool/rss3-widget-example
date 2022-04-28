@@ -1,0 +1,54 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "rss3-widget-example",
+      "private": true,
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "dev": "vite dev --port 3003",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "@types/react": "^18.0.5",
+        "@types/react-dom": "^18.0.1",
+        "@vitejs/plugin-react": "^1.3.1",
+        "typescript": "^4.6.3",
+        "vite": "^2.9.5"
+      },
+      "dependencies": {
+        "@rss3js/widget": "workspace:^1.0.0",
+        "react": "18.0.0",
+        "react-dom": "18.0.0"
+      }
+    },
+    "prefix": "/Users/guoxin/Documents/rss3-widget-example"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/guoxin/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/guoxin/Documents/rss3-widget-example/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/guoxin/Documents/rss3-widget-example",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "In : No matching version found for @rss3js/widget@^1.0.0 inside the workspace",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+      "stack": "pnpm: In : No matching version found for @rss3js/widget@^1.0.0 inside the workspace\n    at tryResolveFromWorkspace (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:86100:15)\n    at resolveNpm (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:85991:39)\n    at Object.resolve (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:86223:40)\n    at ctx.requestsQueue.add.priority (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74577:75)\n    at run (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74293:90)\n    at PQueue._tryToStartAnother (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74247:13)\n    at /Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74306:16\n    at new Promise (<anonymous>)\n    at PQueue.add (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74288:16)\n    at resolveAndFetch (/Users/guoxin/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.32.10/node_modules/pnpm/dist/pnpm.cjs:74577:55)"
+    }
+  }
+}
