@@ -20,7 +20,7 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
-    "@rss3js/widget": "^1.0.0",
+    "@rss3js/widget": "^1.0.1",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   }

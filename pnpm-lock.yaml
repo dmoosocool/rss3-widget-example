@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rss3js/widget': ^1.0.0
+  '@rss3js/widget': ^1.0.1
   '@types/react': ^18.0.5
   '@types/react-dom': ^18.0.1
   '@vitejs/plugin-react': ^1.3.1
@@ -11,7 +11,7 @@ specifiers:
   vite: ^2.9.5
 
 dependencies:
-  '@rss3js/widget': 1.0.0_typescript@4.6.3
+  '@rss3js/widget': 1.0.1_typescript@4.6.3
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
 
@@ -314,8 +314,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@lit/reactive-element/1.3.1:
-    resolution: {integrity: sha512-nOJARIr3pReqK3hfFCSW2Zg/kFcFsSAlIE7z4a0C9D2dPrgD/YSn3ZP2ET/rxKB65SXyG7jJbkynBRm+tGlacw==}
+  /@lit/reactive-element/1.3.2:
+    resolution: {integrity: sha512-A2e18XzPMrIh35nhIdE4uoqRzoIpEU5vZYuQN4S3Ee1zkGdYC27DP12pewbw/RLgPHzaE4kx/YqxMzebOpm0dA==}
     dev: false
 
   /@rollup/pluginutils/4.2.1:
@@ -326,10 +326,10 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rss3js/widget/1.0.0_typescript@4.6.3:
-    resolution: {integrity: sha512-2AwnKFATi8altOJHLhgZjRrV/LDWoHZ6OqvUIm3deLuea/vg/jRievHmidUFH4oGZaDx6TVmxYOksP4KcxjQyA==}
+  /@rss3js/widget/1.0.1_typescript@4.6.3:
+    resolution: {integrity: sha512-W+CBtCLJfXwk6MNyfOZuhq3UOSHq9HkLrHfHynvtRIP/2a3Cd3dWAziwqSRutbFkis2arJZVAHQJLA/wwsccBQ==}
     dependencies:
-      lit: 2.2.2
+      lit: 2.2.3
       moment: 2.29.3
       twind: 0.16.17_typescript@4.6.3
     transitivePeerDependencies:
@@ -765,22 +765,22 @@ packages:
   /lit-element/3.2.0:
     resolution: {integrity: sha512-HbE7yt2SnUtg5DCrWt028oaU4D5F4k/1cntAFHTkzY8ZIa8N0Wmu92PxSxucsQSOXlODFrICkQ5x/tEshKi13g==}
     dependencies:
-      '@lit/reactive-element': 1.3.1
-      lit-html: 2.2.2
+      '@lit/reactive-element': 1.3.2
+      lit-html: 2.2.3
     dev: false
 
-  /lit-html/2.2.2:
-    resolution: {integrity: sha512-cJofCRXuizwyaiGt9pJjJOcauezUlSB6t87VBXsPwRhbzF29MgD8GH6fZ0BuZdXAAC02IRONZBd//VPUuU8QbQ==}
+  /lit-html/2.2.3:
+    resolution: {integrity: sha512-vI4j3eWwtQaR8q/O63juZVliBIFMio716X719/lSsGH4UWPy2/7Qf377jsNs4cx3gCHgIbx8yxFgXFQ/igZyXQ==}
     dependencies:
       '@types/trusted-types': 2.0.2
     dev: false
 
-  /lit/2.2.2:
-    resolution: {integrity: sha512-eN3+2QRHn/erxYB88AXiiRgQA6RltE9MhzySCwX+ACOxA/MLWN3VdXvcbZD9PN09zmUwlgzDvW3T84YWj2Sa0A==}
+  /lit/2.2.3:
+    resolution: {integrity: sha512-5/v+r9dH3Pw/o0rhp/qYk3ERvOUclNF31bWb0FiW6MPgwdQIr+/KCt/p3zcd8aPl8lIGnxdGrVcZA+gWS6oFOQ==}
     dependencies:
-      '@lit/reactive-element': 1.3.1
+      '@lit/reactive-element': 1.3.2
       lit-element: 3.2.0
-      lit-html: 2.2.2
+      lit-html: 2.2.3
     dev: false
 
   /loose-envify/1.4.0:
