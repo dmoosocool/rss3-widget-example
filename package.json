@@ -17,7 +17,7 @@
     "@types/react-dom": "^18.0.1",
     "@vitejs/plugin-react": "^1.3.1",
     "typescript": "^4.6.3",
-    "vite": "^2.9.5"
+    "vite": "^2.9.16"
   },
   "dependencies": {
     "@rss3js/widget": "^1.0.1",
